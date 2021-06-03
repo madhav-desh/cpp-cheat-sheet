@@ -56,6 +56,7 @@ int main()
 	while(!classHeap.empty())
 	{
 		classHeap.top()->print();
+		free(classHeap.top());
 		classHeap.pop();
 	}
 
