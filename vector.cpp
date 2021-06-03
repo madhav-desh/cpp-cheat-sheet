@@ -40,6 +40,17 @@ int main()
 	}
 	std::cout<<std::endl;
 
+	if(numbers.size() != 0)
+	{
+		numbers.pop_back();
+	}
+
+	for(int i = 0; i < numbers.size(); i++)
+	{
+		std::cout<<numbers[i]<<" ";
+	}
+	std::cout<<std::endl;
+
 
 
 	std::vector<MyClass*> objects1;
