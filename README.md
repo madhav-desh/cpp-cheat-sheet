@@ -4,3 +4,5 @@ Read in the following order:
 vector
 priority_queue
 deque
+unordered_set
+unordered_map
