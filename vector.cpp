@@ -42,7 +42,7 @@ int main()
 
 	if(numbers.size() != 0)
 	{
-		numbers.pop_back();
+		numbers.pop_back(); // Never actually used this
 	}
 
 	for(int i = 0; i < numbers.size(); i++)
