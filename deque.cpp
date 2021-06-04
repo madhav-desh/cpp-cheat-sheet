@@ -59,9 +59,11 @@ int main()
 	}
 
 	classDq.front()->print();
+	free(classDq.front());
 	classDq.pop_front();
 
 	classDq.back()->print();
+	free(classDq.back());
 	classDq.pop_back();
 
 	for(int i = 0; i < classDq.size(); i++)
