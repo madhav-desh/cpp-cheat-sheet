@@ -3,9 +3,11 @@
 
 class MyClass
 {
-	public:
+	private:
 
 	int a, b;
+
+	public:
 
 	MyClass(int a, int b)
 	{
