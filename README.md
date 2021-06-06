@@ -6,3 +6,4 @@ priority_queue
 deque
 unordered_set
 unordered_map
+string
